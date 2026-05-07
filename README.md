@@ -1,6 +1,6 @@
 # AI Architect Journey
 
-**Student:** Maira  
+**Student:** Maira Yousaf
 **Degree:** BS Mathematics & Artificial Intelligence  
 **Mission:** Build systems, not just use tools.  
 **Timeline:** 2026 → 2050  
