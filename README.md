@@ -14,7 +14,7 @@ Every project here is coded, debugged, and understood line by line.
 
 | Week | Project | Concepts | Link |
 |------|---------|----------|------|
-| 1 | Dual-Language Function Engine | Calculus, Numerical Methods, Python, Java | [Folder](./week-01-function-engine) |
+| 1 | Dual-Language Function Engine | Calculus, Numerical Methods, Python, Java |[Folder](.\week-01-function-engine) |
 
 ## Skills Stack
 - **Languages:** Python, Java
