@@ -1,0 +1,17 @@
+# Week 2: Truth Table Generator
+
+## What This Project Does
+Generates truth tables for logical expressions using Python.
+
+## Features
+- Supports AND, OR, NOT operations
+- Uses itertools for clean combinations
+- Evaluates custom logical rules
+- Clean formatted table output
+
+## Files
+- `truth_table.py` — Main truth table generator
+
+## How to Run
+```bash
+python truth_table.py
