@@ -1,0 +1,23 @@
+import itertools
+def evaluate_rule(values,rule):
+    """
+    values: dictionary like { 'D: 1, 'W : 0}
+    rule: string like "(D or W) and M "
+    """
+    return eval(rule , {} , values)
+def generate_security_table(sensors , rule):
+    n = len(sensors)
+    header = " | " .join(sensors) + " | ALARM?"
+    print(header)
+    print("-" * len(header))
+    for state in itertools .product([0,1], repeat=n):
+        values = dict(zip(sensors , state))
+        alarm = evaluate_rule(values, rule)
+        row = " | ".join(str(v) for v in state)
+        print(f"{row} | {int(alarm)}")
+if __name__ == "__main__":
+    sensors = ['D' , 'W' , 'M','G']
+    print("=== RULE 1: (D or W or G) and M ===")
+    generate_security_table(sensors, "(D or W or G) and M")
+    print("\n=== RULE 2: D and W and M and G===")
+    generate_security_table(sensors, "D and  W and M and G")
